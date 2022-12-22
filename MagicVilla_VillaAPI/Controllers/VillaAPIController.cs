@@ -95,6 +95,7 @@ namespace MagicVilla_VillaAPI.Controllers
                 Occupancy= villaDTO.Occupancy,
                 Sqft= villaDTO.Sqft
             };
+
             await _appDbContext.Villas.AddAsync(villa);
             await _appDbContext.SaveChangesAsync();
 
