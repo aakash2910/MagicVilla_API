@@ -16,6 +16,15 @@ namespace MagicVilla_VillaAPI
 
             CreateMap<Villa, VillaUpdateDTO>();
             CreateMap<VillaUpdateDTO, Villa>();
+
+            CreateMap<VillaNumberDTO, VillaNumber>();
+            CreateMap<VillaNumber, VillaNumberDTO>();
+
+            CreateMap<VillaNumber, VillaNumberCreateDTO>();
+            CreateMap<VillaNumberCreateDTO, VillaNumber>();
+
+            CreateMap<VillaNumber, VillaNumberUpdateDTO>();
+            CreateMap<VillaNumberUpdateDTO, VillaNumber>();
         }
     }
 }
